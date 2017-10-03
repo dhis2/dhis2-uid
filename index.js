@@ -17,4 +17,17 @@ const generateCode = (limit = 11, fn = Math.random) => {
   return arr.join( '' );
 };
 
-module.exports = generateCode;
+const generateCodes = (n = 10, limit = 11, fn = Math.random) => {
+  const arr = [];
+
+  for ( let i = 0; i < n; i++ ) {
+    arr.push( generateCode( limit, fn ) );
+  }
+
+  return arr;
+};
+
+module.exports = {
+  generateCode,
+  generateCodes
+};
