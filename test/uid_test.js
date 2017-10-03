@@ -1,5 +1,5 @@
 const {assert} = require( "chai" );
-const generateCode = require( '../index' );
+const {generateCode} = require( '../index' );
 
 // https://stackoverflow.com/questions/521295/seeding-the-random-number-generator-in-javascript
 const seededRandom = (m_w = 123456789) => {
