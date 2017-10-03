@@ -13,7 +13,7 @@
     "url": "https://github.com/dhis2/dhis2-uid.git"
   },
   "author": "Morten Olav Hansen <morten@dhis2.org>",
-  "license": "ISC",
+  "license": "BSD-3-Clause",
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^4.0.0"
