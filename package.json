@@ -1,13 +1,13 @@
 {
   "name": "dhis2-uid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "mocha --watch --recursive test/**/*_test.js",
     "test": "mocha --recursive test/**/*_test.js"
   },
-  "keywords": [ ],
+  "keywords": [],
   "repository": {
     "type": "git",
     "url": "https://github.com/dhis2/dhis2-uid.git"
