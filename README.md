@@ -13,8 +13,9 @@ Small library for generating valid DHIS2 UIDs.
 ## Example usage
 
 ```js
-const uid = require('dhis2-uid');
-console.log(uid());
+const {generateCode, generateCodes} = require('dhis2-uid');
+console.log(generateCode());
+console.log(generateCodes(10));
 ```
 
 ## License
